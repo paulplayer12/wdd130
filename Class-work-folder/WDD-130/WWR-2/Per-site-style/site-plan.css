@@ -188,3 +188,7 @@ nav a:hover {
   border-top: 1px solid;
   border-right: 1px solid;
 }
+.wireframe {
+ width: 400px ;
+  height: auto;
+}
