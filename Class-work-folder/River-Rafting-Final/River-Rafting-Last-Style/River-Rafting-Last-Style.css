@@ -1,0 +1,150 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 2px solid #000;
+}
+.logo-image {    
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+}
+.logo {
+    width: 50px;
+    height: 50px;
+    background: lightgray;
+    border: 1px solid black;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    background-color:#231c4e  ;
+    line-height: 3em;
+    text-align: center;
+    font-size: 1.2em;
+}
+nav a {
+    padding:1em;
+    min-width: 120px;
+    text-decoration: none;
+    padding: 10px;
+  }
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(208, 206, 238);
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    border-bottom: 2px solid #000;
+}
+
+.hero h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.hero button {
+    padding: 10px 15px;
+    border: 1px solid black;
+    background: none;
+    cursor: pointer;
+}
+
+/* Features Section */
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 40px 0;
+}
+
+.feature {
+    text-align: center;
+}
+
+.image {
+    width: 100px;
+    height: 100px;
+    background: lightgray;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+
+/* Popup Section */
+.popup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ccc;
+    padding: 50px 0;
+}
+
+.main-image {
+    width: 300px;
+    height: 200px;
+    background: lightgray;
+    border: 1px solid black;
+}
+
+.popup {
+    background: #666;
+    color: white;
+    padding: 20px;
+    margin-left: -50px;
+    border-radius: 5px;
+}
+
+.popup h2 {
+    margin-bottom: 10px;
+}
+
+.popup button {
+    background: white;
+    border: 1px solid black;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-top: 2px solid #000;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    background: lightgray;
+    border: 1px solid black;
+}

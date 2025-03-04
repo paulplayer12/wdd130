@@ -1,0 +1,43 @@
+.Button-Holder{ 
+    display: flex;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+}
+  .Button-Test{
+    background-color: #3c4fcb;
+    border: thick solid black;
+    color: rgb(64, 35, 181);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  .Button-test.hover{
+    background-color: #3c4fcb;
+    color: rgb(141, 213, 16);
+    box-shadow: #3c4fcb;
+  }
+  Body{display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Click-The-Bait{
+    background-color: blue;
+    border: thick solid black;
+    color: white;   
+    font-size: 16px;
+    padding: 30px 60px;
+    cursor: pointer;
+    box-shadow: -1 2px 11px -1 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 12px;
+}
+#Click-The-Bait:hover{
+    background-color: #36d117;
+    color: rgb(0, 0, 0);
+    box-shadow: #172054;
+}
