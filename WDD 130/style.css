@@ -1,0 +1,14 @@
+.circle{
+width: 100px;
+height: 100px;
+background-color: red; 
+border-radius: 50%;
+cursor: pointer;
+}
+.square{
+width: 100px;
+height: 100px;
+background-color: blue; 
+cursor: pointer;
+border:solid 10px black;
+}
