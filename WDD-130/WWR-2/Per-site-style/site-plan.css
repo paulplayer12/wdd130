@@ -7,7 +7,7 @@ Fonts are separated by a | */
   /* change the values below to your colors from your palette */
   --primary-color: #88ADD7   ;
   --secondary-color: #34516F ;
-  --accent1-color:  #B71822;
+  --accent1-color:  #3a4778;
   --accent2-color: white;
 
   /* change the values below to your chosen font(s) */
@@ -191,4 +191,34 @@ nav a:hover {
 .wireframe {
  width: 400px ;
   height: auto;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.header {
+  background: url('background.jpg') no-repeat center center/cover;
+  padding: 40px;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.sidebar {
+  width: 20%;
+}
+.content {
+  width: 60%;
+  text-align: center;
+}
+.footer {
+  background: #333;
+  color: white;
+  padding: 10px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
 }
