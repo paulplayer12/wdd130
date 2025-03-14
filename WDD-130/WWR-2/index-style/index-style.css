@@ -19,7 +19,6 @@
       --nav-background-color: #28415c ;
     --nav-hover-link-color: white;
     --nav-hover-background-color: #396E94;
-  }
   
 body {
     font-family: Arial, sans-serif;
@@ -148,7 +147,7 @@ nav a:hover {
   padding: 10px;
  }
     /* Center the form on the page */
-    text-align:{ center;
+    text-align: center;
   }
   
   form {
