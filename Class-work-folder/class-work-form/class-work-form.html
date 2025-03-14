@@ -3,19 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="class-work-form-styles.css">
+    <link rel="stylesheet" href="Class-work-folder\Class-work-Style-Folder\class-work-form-styles.css">
     <title>Document</title>
 </head>
 <body>
-    <div>
-    <form>
-<ladbel for="username">Username:</label>
-<input type="text" id="username" name="username" required>
-<ladbel for="password">Password:</label>
-    <input type="text" id="password" name="password" required>
-<br>
-<button type="Login">Login</button>  
-</form>
+    <form action="/my-handling-form-page" method="post">
+        <p>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="user_name" />
+        </p>
+        <p>
+          <label for="mail">Email:</label>
+          <input type="email" id="mail" name="user_email" />
+        </p>
+        <p>
+          <label for="msg">Message:</label>
+          <textarea id="msg" name="user_message"></textarea>
+        </p>
+        <p class="button">
+            <button type="submit">Send your message</button>
+          </p>
+      </form>
 </div>
 </body>
 </html>
