@@ -8,11 +8,9 @@
 </head>
 <body>
     <header class="header">
-        <h1>Background Image and Title
-            Catalog Suggestions and submmiting Wireframe
+        <h1>Catalog Emporium
         </h1>
     </header>
-    <p>Nav Bar</p>
     <nav class="navbar">
        
         <a href="Index.Html" Class="nav-elements">Home</a>
@@ -21,10 +19,31 @@
     </nav>
     <div class="container">
         <div class="content">
-            <h2 class="description-box-title">secion title website</h2>
-            <div class="description-box"> Actual description of the website</div>
-            <h2 class="description-box-title">section title website</h2>
-            <div class="description-box">description of catalog being put in, along with away to input a catalog or a link to a catalog</div>
+            <h2 class="description-box-title">Catalog Lists</h2>
+            <div class="description-box"> Here are the list of catalogs we provide here, along with away to submit your own catalogs</div>
+            <h2 class="description-box-title">Catalog Submission</h2>
+            <div class="description-box">Submit your Catalog here </div>
+            <form action="/my-handling-form-page" method="post">
+                <p>
+                  <label for="Name of author">Name of Author:</label>
+                  <input type="text" id="name" name="Name-of-author" />
+                </p>
+                <p>
+                  <label for="mail">Authors Email:</label>
+                  <input type="email" id="mail" name="Authors_email" />
+                </p>
+                <p>
+                    <label for="msg">Link to Catalog:</label>
+                    <input id="Link" name="link-to-catalog"></input>
+                  </p>
+                <p>
+                  <label for="msg">Description of Catalog:</label>
+                  <textarea id="msg" name="description-of-catalog"></textarea>
+                </p>
+                <p class="button">
+                    <button type="submit">Submit your Catalog</button>
+                  </p>
+              </form>
             <h2 class="description-box-title"> Section that has suggestions for catalogs or most popular ones</h2>
             <div class="description-box"><strong>Suggestions of catalogs</strong></div>
         </div>
@@ -35,7 +54,7 @@
     <footer class="footer">
         <p>Footer</p>
         <p>Home Wireframe; 2025 - Paul D. Sullivan</p>
-        <p><a href="site-plan-Hawaii.html">Site Plan</a></p>
+        <p><a href="WWR-2\site-plan.htm">Site Plan</a></p>
         <p><a href="contactus.html">Contact Us</a></p>
         <div class="social">
             <a href="https://facebook.com" target="_blank">
