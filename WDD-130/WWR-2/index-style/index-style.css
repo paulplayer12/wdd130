@@ -25,9 +25,33 @@ body {
     margin: 0;
     padding: 0;
     text-align: center;
+  }   
+.title {
+    font-family: Proxima Nova;
+    font-size: 48px;
+    font-weight: bold;
+    color: black;
+    padding: 20px;
+   
+    display : flex;
+    text-align: center;
+  }
+}
+.background-image {
+    height: auto;
+    display: flex ;
+    z-index:  1;
+    width:50%;
+    bottom: 20px;
+    right:100px ;
+}
+.site-plan-logo {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
 }
 .header {
-    background: url('background.jpg') no-repeat center center/cover;
+    background-image: url(Background-image.jpg);
     padding: 40px;
     font-size: 24px;
     font-weight: bold;
@@ -35,6 +59,7 @@ body {
         font-weight: bold;
       }
       font-family: Proxima Nova;
+      text-align: center;
 }
 .navbar {
     background: #28415c;
@@ -145,10 +170,7 @@ nav a:hover {
  }
  .nav-elements {
   padding: 10px;
- }
-    /* Center the form on the page */
-    text-align: center;
-  }
+  font-size: 20px;}
   
   form {
     display: inline-block;
